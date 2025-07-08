@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "changed_dimension_4": {
+            "trigger": "changed_dimension",
+            "conditions": {
+                "from": "the_nether",
+                "to": "the_end"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:utils/special/changed_dimension/nether_to_end"
+    }
+}

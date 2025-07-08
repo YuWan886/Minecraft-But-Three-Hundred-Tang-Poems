@@ -1,0 +1,7 @@
+{
+    "criteria": {
+        "used_ender_eye":{
+            "trigger": "used_ender_eye"
+        }
+    }
+}

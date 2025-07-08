@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "changed_dimension_5": {
+            "trigger": "changed_dimension",
+            "conditions": {
+                "from": "the_end",
+                "to": "overworld"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:utils/special/changed_dimension/end_to_overworld"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "placed_water": {
+            "trigger": "placed_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "match_tool",
+                        "predicate": {
+                            "items": "lava_bucket"
+                        }
+                    },
+                    {
+                        "condition": "random_chance",
+                        "chance": 0.09
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:utils/select_poem/1"
+    }
+}

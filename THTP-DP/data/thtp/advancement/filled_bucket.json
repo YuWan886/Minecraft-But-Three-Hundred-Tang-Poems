@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "filled_bucket":{
+            "trigger": "filled_bucket",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "random_chance",
+                        "chance": 0.3333
+                    }
+                ]
+            }
+        }
+    }
+}

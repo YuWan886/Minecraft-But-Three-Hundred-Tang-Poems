@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "changed_dimension_1": {
+            "trigger": "changed_dimension",
+            "conditions": {
+                "from": "overworld",
+                "to": "the_nether"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:utils/special/changed_dimension/overworld_to_nether"
+    }
+}

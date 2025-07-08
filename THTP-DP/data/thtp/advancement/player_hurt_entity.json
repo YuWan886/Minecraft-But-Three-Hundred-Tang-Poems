@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "player_hurt_entity":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "random_chance",
+                        "chance": 0.1
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:utils/select_poem/1"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "criteria": {
+        "test":{
+            "trigger": "impossible"
+        }
+    }
+}

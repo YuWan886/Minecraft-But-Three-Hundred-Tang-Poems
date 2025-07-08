@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "item_durability_changed":{
+            "trigger": "item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "random_chance",
+                        "chance": 0.005
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:utils/select_poem/1"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "iron_pickaxe":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "iron_pickaxe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:utils/special/crafted/iron_pickaxe"
+    }
+}

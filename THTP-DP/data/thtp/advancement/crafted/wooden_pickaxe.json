@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "wooden_pickaxe": {
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "wooden_pickaxe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:utils/special/crafted/wooden_pickaxe"
+    }
+}

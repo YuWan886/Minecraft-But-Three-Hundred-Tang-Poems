@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "placed_block":{
+            "trigger": "placed_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "random_chance",
+                        "chance": 0.015
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:utils/select_poem/1"
+    }
+}

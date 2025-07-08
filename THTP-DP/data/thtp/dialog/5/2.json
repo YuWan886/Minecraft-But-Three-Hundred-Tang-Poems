@@ -1,0 +1,34 @@
+{
+    "type": "multi_action",
+    "title": {
+        "text": "唐诗三百首"
+    },
+    "body": [
+        {
+            "type": "plain_message",
+            "contents": {
+                "text": "“游子身上衣”上一句是？"
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "key": "answer",
+            "type": "text",
+            "label": {
+                "text": ""
+            }
+        }
+    ],
+    "actions": [
+        {
+            "label": {
+                "text": "确认"
+            },
+            "action": {
+                "type": "dynamic/run_command",
+                "template": "function thtp:utils/check_answer/1 {input:\"$(answer)\",poem_num:5,poem_text:2}"
+            }
+        }
+    ]
+}
