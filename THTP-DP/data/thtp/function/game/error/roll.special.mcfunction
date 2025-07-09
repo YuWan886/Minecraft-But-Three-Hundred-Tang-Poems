@@ -15,3 +15,14 @@ execute as @s[tag=crafted_wooden_pickaxe] run function thtp:game/error/special/c
 execute as @s[tag=eat_food] run function thtp:game/error/special/eat_food
 # 碎觉
 execute as @s[tag=slept_in_bed] at @s run function thtp:game/error/special/slept_in_bed
+# 挖矿
+execute as @s[tag=mined_coal] run function thtp:game/error/special/mined/coal
+execute as @s[tag=mined_copper] run function thtp:game/error/special/mined/copper
+execute as @s[tag=mined_diamond] run function thtp:game/error/special/mined/diamond
+execute as @s[tag=mined_emerald] run function thtp:game/error/special/mined/emerald
+execute as @s[tag=mined_gold] run function thtp:game/error/special/mined/gold
+execute as @s[tag=mined_iron] run function thtp:game/error/special/mined/iron
+execute as @s[tag=mined_lapis] run function thtp:game/error/special/mined/lapis
+execute as @s[tag=mined_nether_gold] run function thtp:game/error/special/mined/nether_gold
+execute as @s[tag=mined_quartz] run function thtp:game/error/special/mined/quartz
+execute as @s[tag=mined_redstone] run function thtp:game/error/special/mined/redstone

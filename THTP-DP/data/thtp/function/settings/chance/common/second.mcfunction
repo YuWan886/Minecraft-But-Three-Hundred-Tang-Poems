@@ -1,0 +1,1 @@
+$execute as @a[tag=!common,tag=!special] if predicate {condition:"random_chance",chance:$(second)} run function thtp:utils/select_poem/1

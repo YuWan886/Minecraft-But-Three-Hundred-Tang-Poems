@@ -1,0 +1,1 @@
+$execute if predicate {condition:"random_chance",chance:$(player_hurt_entity)} run function thtp:utils/select_poem/1

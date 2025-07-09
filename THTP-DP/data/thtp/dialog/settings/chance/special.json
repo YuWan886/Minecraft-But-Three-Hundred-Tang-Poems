@@ -1,0 +1,142 @@
+{
+    "type": "multi_action",
+    "title": {
+        "text": "特殊类型触发概率设置"
+    },
+    "external_title": {
+        "text": "特殊类型"
+    },
+    "inputs": [
+        {
+            "key": "eat_food",
+            "type": "text",
+            "label": {
+                "text": "进食"
+            },
+            "initial": "0.1"
+        },
+        {
+            "key": "slept_in_bed",
+            "type": "text",
+            "label": {
+                "text": "睡觉"
+            },
+            "initial": "0.2"
+        },
+        {
+            "key": "mined_coal",
+            "type": "text",
+            "label": {
+                "text": "挖煤"
+            },
+            "initial": "0.05"
+        },
+        {
+            "key": "mined_copper",
+            "type": "text",
+            "label": {
+                "text": "挖铜"
+            },
+            "initial": "0.05"
+        },
+        {
+            "key": "mined_iron",
+            "type": "text",
+            "label": {
+                "text": "挖铁"
+            },
+            "initial": "0.05"
+        },
+        {
+            "key": "mined_gold",
+            "type": "text",
+            "label": {
+                "text": "挖金"
+            },
+            "initial": "0.08"
+        },
+        {
+            "key": "mined_diamond",
+            "type": "text",
+            "label": {
+                "text": "挖钻石"
+            },
+            "initial": "0.1"
+        },
+        {
+            "key": "mined_redstone",
+            "type": "text",
+            "label": {
+                "text": "挖红石"
+            },
+            "initial": "0.05"
+        },
+        {
+            "key": "mined_lapis",
+            "type": "text",
+            "label": {
+                "text": "挖青金石"
+            },
+            "initial": "0.05"
+        },
+        {
+            "key": "mined_emerald",
+            "type": "text",
+            "label": {
+                "text": "挖绿宝石"
+            },
+            "initial": "0.1"
+        },
+        {
+            "key": "mined_nether_gold",
+            "type": "text",
+            "label": {
+                "text": "挖下界金矿"
+            },
+            "initial": "0.05"
+        },
+        {
+            "key": "mined_quartz",
+            "type": "text",
+            "label": {
+                "text": "挖下界石英"
+            },
+            "initial": "0.05"
+        },
+        {
+            "key": "crafted_wooden_pickaxe",
+            "type": "text",
+            "label": {
+                "text": "合成木镐"
+            },
+            "initial": "0.3"
+        },
+        {
+            "key": "crafted_stone_pickaxe",
+            "type": "text",
+            "label": {
+                "text": "合成石镐"
+            },
+            "initial": "0.3"
+        },
+        {
+            "key": "crafted_iron_pickaxe",
+            "type": "text",
+            "label": {
+                "text": "合成铁镐"
+            },
+            "initial": "0.3"
+        }
+    ],
+    "actions": [
+        {
+            "label": {
+                "text": "应用"
+            },
+            "action": {
+                "type": "dynamic/run_command",
+                "template": "data modify storage thtp:settings chance.special set value {eat_food:$(eat_food),slept_in_bed:$(slept_in_bed),mined_coal:$(mined_coal),mined_copper:$(mined_copper),mined_diamond:$(mined_diamond),mined_emerald:$(mined_emerald),mined_gold:$(mined_gold),mined_iron:$(mined_iron),mined_lapis:$(mined_lapis),mined_nether_gold:$(mined_nether_gold),mined_quartz:$(mined_quartz),mined_redstone:$(mined_redstone),crafted_wooden_pickaxe:$(crafted_wooden_pickaxe),crafted_stone_pickaxe:$(crafted_stone_pickaxe),crafted_iron_pickaxe:$(crafted_iron_pickaxe)}"
+            }
+        }
+    ]
+}

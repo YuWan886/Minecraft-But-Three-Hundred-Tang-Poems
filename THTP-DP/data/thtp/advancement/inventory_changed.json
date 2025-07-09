@@ -1,18 +1,10 @@
 {
     "criteria": {
         "inventory_changed": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "random_chance",
-                        "chance": 0.015
-                    }
-                ]
-            }
+            "trigger": "inventory_changed"
         }
     },
     "rewards": {
-        "function": "thtp:utils/select_poem/1"
+        "function": "thtp:type/common/inventory_changed"
     }
 }

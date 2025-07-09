@@ -9,6 +9,6 @@
         }
     },
     "rewards": {
-        "function": "thtp:utils/special/changed_dimension/end_to_nether"
+        "function": "thtp:type/special/changed_dimension/end_to_nether"
     }
 }

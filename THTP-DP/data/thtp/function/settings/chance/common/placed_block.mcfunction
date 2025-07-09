@@ -1,0 +1,1 @@
+$execute if predicate {condition:"random_chance",chance:$(placed_block)} run function thtp:utils/select_poem/1

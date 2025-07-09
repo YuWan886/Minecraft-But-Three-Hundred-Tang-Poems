@@ -21,7 +21,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "dialog show @s thtp:settings/chance/second"
+                "command": "dialog show @s thtp:settings/chance/main"
             }
         }
     ]

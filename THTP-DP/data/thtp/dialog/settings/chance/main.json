@@ -1,0 +1,15 @@
+{
+    "type": "dialog_list",
+    "title": {
+        "text": "触发概率设置"
+    },
+    "columns": 1,
+    "body": [{
+        "type": "plain_message",
+        "contents": "\n\n"
+    }],
+    "dialogs": [
+        "thtp:settings/chance/common",
+        "thtp:settings/chance/special"
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "iron_pickaxe":{
+        "iron_pickaxe": {
             "trigger": "recipe_crafted",
             "conditions": {
                 "recipe_id": "iron_pickaxe"
@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "thtp:utils/special/crafted/iron_pickaxe"
+        "function": "thtp:type/special/crafted/iron_pickaxe"
     }
 }

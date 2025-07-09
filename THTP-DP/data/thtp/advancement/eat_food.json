@@ -1,18 +1,10 @@
 {
     "criteria": {
-        "eat_food":{
-            "trigger": "consume_item",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "random_chance",
-                        "chance": 0.1
-                    }
-                ]
-            }
+        "eat_food": {
+            "trigger": "consume_item"
         }
     },
     "rewards": {
-        "function": "thtp:utils/special/eat_food"
+        "function": "thtp:type/special/eat_food"
     }
 }

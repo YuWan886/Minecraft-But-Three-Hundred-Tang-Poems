@@ -1,18 +1,10 @@
 {
     "criteria": {
         "slept": {
-            "trigger": "slept_in_bed",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "random_chance",
-                        "chance": 0.2
-                    }
-                ]
-            }
+            "trigger": "slept_in_bed"
         }
     },
     "rewards": {
-        "function": "thtp:utils/special/slept_in_bed"
+        "function": "thtp:type/special/slept_in_bed"
     }
 }

@@ -1,0 +1,63 @@
+{
+    "type": "multi_action",
+    "title": {
+        "text": "一般类型触发概率设置"
+    },
+    "columns": 2,
+    "external_title": {
+        "text": "一般类型"
+    },
+    "inputs": [
+        {
+            "key": "second",
+            "type": "text",
+            "label": {
+                "text": "每秒"
+            },
+            "initial": "0.016"
+        },
+        {
+            "key": "player_hurt_entity",
+            "type": "text",
+            "label": {
+                "text": "玩家攻击生物"
+            },
+            "initial": "0.1"
+        },
+        {
+            "key": "player_killed_entity",
+            "type": "text",
+            "label": {
+                "text": "玩家击杀生物"
+            },
+            "initial": "0.2"
+        },
+        {
+            "key": "placed_block",
+            "type": "text",
+            "label": {
+                "text": "放置方块"
+            },
+            "initial": "0.015"
+        },
+        {
+            "key": "inventory_changed",
+            "type": "text",
+            "label": {
+                "text": "玩家背包改变"
+            },
+            "initial": "0.015"
+        }
+    ],
+    "actions": [
+        {
+            "label": {
+                "text": "应用"
+            },
+            "action": {
+                "type": "dynamic/run_command",
+                "template": "data modify storage thtp:settings chance.common set value {second:$(second),player_hurt_entity:$(player_hurt_entity),player_killed_entity:$(player_killed_entity),placed_block:$(placed_block),inventory_changed:$(inventory_changed)}"
+            }
+        }
+    ]
+}

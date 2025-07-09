@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "stone_axe":{
+        "stone_axe": {
             "trigger": "recipe_crafted",
             "conditions": {
                 "recipe_id": "stone_pickaxe"
@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "thtp:utils/special/crafted/stone_pickaxe"
+        "function": "thtp:type/special/crafted/stone_pickaxe"
     }
 }

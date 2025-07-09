@@ -9,6 +9,6 @@
         }
     },
     "rewards": {
-        "function": "thtp:utils/special/changed_dimension/overworld_to_end"
+        "function": "thtp:type/special/changed_dimension/overworld_to_end"
     }
 }

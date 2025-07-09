@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "thtp:utils/special/crafted/wooden_pickaxe"
+        "function": "thtp:type/special/crafted/wooden_pickaxe"
     }
 }

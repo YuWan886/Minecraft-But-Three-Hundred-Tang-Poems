@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "filled_bucket":{
+        "filled_bucket": {
             "trigger": "filled_bucket",
             "conditions": {
                 "player": [
