@@ -1,0 +1,1 @@
+tag @s remove mined_coal

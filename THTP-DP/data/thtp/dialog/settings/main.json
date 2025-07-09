@@ -1,0 +1,28 @@
+{
+    "type": "multi_action",
+    "title": {
+        "text": "控制面板"
+    },
+    "columns": 1,
+    "body": {
+        "type": "plain_message",
+        "contents": {
+            "text": "\n\n\n\n\n\ue001\n\n\n\n\n\n\n\n\n\n\n",
+            "click_event": {
+                "action": "open_url",
+                "url": "https://space.bilibili.com/438381132"
+            }
+        }
+    },
+    "actions": [
+        {
+            "label": {
+                "text": "触发概率"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "dialog show @s thtp:settings/chance/second"
+            }
+        }
+    ]
+}

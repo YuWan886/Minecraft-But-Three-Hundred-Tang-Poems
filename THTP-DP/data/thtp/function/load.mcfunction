@@ -13,8 +13,8 @@ scoreboard objectives add P.Roll.EatFood dummy
 ## 主世界
  scoreboard objectives add MinedCoalOre mined:coal_ore
  scoreboard objectives add MinedDeepCoalOre mined:deepslate_coal_ore
- scoreboard objectives add MinedCopper mined:copper_ore
- scoreboard objectives add MinedDeepCopper mined:deepslate_copper_ore
+ scoreboard objectives add MinedCopperOre mined:copper_ore
+ scoreboard objectives add MinedDeepCopperOre mined:deepslate_copper_ore
  scoreboard objectives add MinedIronOre mined:iron_ore
  scoreboard objectives add MinedDeepIronOre mined:deepslate_iron_ore
  scoreboard objectives add MinedLapisOre mined:lapis_ore
@@ -29,10 +29,12 @@ scoreboard objectives add P.Roll.EatFood dummy
  scoreboard objectives add MinedDeepEmeraldOre mined:deepslate_emerald_ore
 ## 下界
  scoreboard objectives add MinedNetherQuartzOre mined:nether_quartz_ore
- scoreboard objectives add MinedNetherGOldOre mined:nether_gold_ore
+ scoreboard objectives add MinedNetherGoldOre mined:nether_gold_ore
  scoreboard objectives add MinedAncientDebris mined:ancient_debris
 
 # 使用
- 
 
+# 设置初始化 
+function thtp:settings/init
+# 循环
 function thtp:schedule/loop_1s

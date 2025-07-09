@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/icon.png",
+            "ascent": 40,
+            "height": 60,
+            "chars": [
+                "\ue001"
+            ]
+        }
+    ]
+}

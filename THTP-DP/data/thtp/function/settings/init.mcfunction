@@ -1,0 +1,1 @@
+data modify storage thtp:settings chance set value {second_chance:0.016}

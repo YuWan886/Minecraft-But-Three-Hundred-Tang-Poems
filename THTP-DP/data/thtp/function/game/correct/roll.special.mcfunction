@@ -15,3 +15,5 @@ execute as @s[tag=crafted_wooden_pickaxe] run function thtp:game/correct/special
 execute as @s[tag=eat_food] run function thtp:game/correct/special/eat_food
 # 碎觉
 execute as @s[tag=slept_in_bed] run function thtp:game/correct/special/slept_in_bed
+# 挖矿
+execute as @s[tag=mined_coal] run function thtp:game/correct/special/mined/coal

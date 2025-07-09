@@ -24,7 +24,7 @@ def generate_minecraft_resources(poems_json_path, output_dir):
 
 def generate_question_jsons(poem_num, title, author, lines, output_dir):
     # 创建dialog目录
-    dialog_dir = os.path.join(output_dir, "dialog", str(poem_num))
+    dialog_dir = os.path.join(output_dir, "dialog", "poem", str(poem_num))
     os.makedirs(dialog_dir, exist_ok=True)
     
     # 生成4种问题的JSON文件
