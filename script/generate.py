@@ -120,7 +120,7 @@ def get_line_pair(question_type, lines):
         return f"{lines[2]}，{lines[3]}"
 
 if __name__ == "__main__":
-    input_file = "poems.json"
-    output_directory = "output"
+    input_file = "script/poems.json"
+    output_directory = "script/output"
     generate_minecraft_resources(input_file, output_directory)
     print(f"资源已生成到 {output_directory} 目录")
