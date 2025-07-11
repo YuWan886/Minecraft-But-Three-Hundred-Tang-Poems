@@ -1,6 +1,6 @@
 data modify storage thtp:settings chance.common set value \
 {\
-  second:0.016,\
+  second:0.008,\
   player_hurt_entity:0.1,\
   player_killed_entity:0.2,\
   placed_block:0.015,\
@@ -9,7 +9,7 @@ data modify storage thtp:settings chance.common set value \
 
 data modify storage thtp:settings chance.special set value \
 {\
-  eat_food:0.1,\
+  eat_food:0.08,\
   slept_in_bed:0.2,\
   mined_coal:0.05,\
   mined_copper:0.05,\

@@ -1,8 +1,23 @@
 {
     "type": "multi_action",
-    "title": {
-        "text": "控制面板"
-    },
+    "title": [
+        {
+            "text": "控",
+            "color": "gold"
+        },
+        {
+            "text": "制",
+            "color": "#f7d201"
+        },
+        {
+            "text": "面",
+            "color": "#f7de55"
+        },
+        {
+            "text": "板",
+            "color": "#f4e79e"
+        }
+    ],
     "columns": 1,
     "body": {
         "type": "plain_message",

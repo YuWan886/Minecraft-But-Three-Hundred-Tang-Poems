@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~3 {IsBaby:true,Passengers:[{id:"tnt",fuse:60}]}

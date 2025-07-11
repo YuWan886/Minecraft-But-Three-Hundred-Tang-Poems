@@ -1,0 +1,1 @@
+summon creeper ^ ^ ^-1 {Fuse:10,powered:true}

@@ -14,7 +14,7 @@
             "label": {
                 "text": "每秒"
             },
-            "initial": "0.016"
+            "initial": "0.008"
         },
         {
             "key": "player_hurt_entity",

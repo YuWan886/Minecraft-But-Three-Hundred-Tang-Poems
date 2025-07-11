@@ -1,0 +1,1 @@
+summon minecraft:illusioner ~ ~ ~3 {Tags:[summon_illusioner]}

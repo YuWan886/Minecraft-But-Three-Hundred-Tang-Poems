@@ -1,0 +1,1 @@
+summon chicken ~ ~ ~-3 {attributes:[{id:"scale",base:1.5},{id:"movement_speed",base:0.6}],Passengers:[{id:"skeleton",equipment:{head:{id:"turtle_helmet"},mainhand:{id:"bow"}},attributes:[{id:scale,base:0.5}]}]}
