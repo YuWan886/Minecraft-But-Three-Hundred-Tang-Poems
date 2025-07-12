@@ -1,4 +1,4 @@
-$execute if predicate {condition:"random_chance",chance:$(crafted_stone_pickaxe)} run return fail
+$execute unless predicate {condition:"random_chance",chance:$(crafted_stone_pickaxe)} run return fail
 
 tag @a add special
 tag @s add crafted_stone_pickaxe

@@ -11,5 +11,14 @@
     "dialogs": [
         "thtp:settings/chance/common",
         "thtp:settings/chance/special"
-    ]
+    ],
+    "exit_action": {
+        "label": {
+            "text": "返回"
+        },
+        "action": {
+            "type": "run_command",
+            "command": "dialog show @s thtp:settings/main"
+        }
+    }
 }

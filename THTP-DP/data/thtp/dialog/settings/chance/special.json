@@ -45,7 +45,7 @@
             "label": {
                 "text": "挖铁"
             },
-            "initial": "0.05"
+            "initial": "0.1"
         },
         {
             "key": "mined_gold",
@@ -53,7 +53,7 @@
             "label": {
                 "text": "挖金"
             },
-            "initial": "0.08"
+            "initial": "0.15"
         },
         {
             "key": "mined_diamond",
@@ -61,7 +61,7 @@
             "label": {
                 "text": "挖钻石"
             },
-            "initial": "0.1"
+            "initial": "0.2"
         },
         {
             "key": "mined_redstone",
@@ -69,7 +69,7 @@
             "label": {
                 "text": "挖红石"
             },
-            "initial": "0.05"
+            "initial": "0.08"
         },
         {
             "key": "mined_lapis",
@@ -77,7 +77,7 @@
             "label": {
                 "text": "挖青金石"
             },
-            "initial": "0.05"
+            "initial": "0.1"
         },
         {
             "key": "mined_emerald",
@@ -85,7 +85,7 @@
             "label": {
                 "text": "挖绿宝石"
             },
-            "initial": "0.1"
+            "initial": "0.2"
         },
         {
             "key": "mined_nether_gold",
@@ -138,5 +138,14 @@
                 "template": "data modify storage thtp:settings chance.special set value {eat_food:$(eat_food),slept_in_bed:$(slept_in_bed),mined_coal:$(mined_coal),mined_copper:$(mined_copper),mined_diamond:$(mined_diamond),mined_emerald:$(mined_emerald),mined_gold:$(mined_gold),mined_iron:$(mined_iron),mined_lapis:$(mined_lapis),mined_nether_gold:$(mined_nether_gold),mined_quartz:$(mined_quartz),mined_redstone:$(mined_redstone),crafted_wooden_pickaxe:$(crafted_wooden_pickaxe),crafted_stone_pickaxe:$(crafted_stone_pickaxe),crafted_iron_pickaxe:$(crafted_iron_pickaxe)}"
             }
         }
-    ]
+    ],
+    "exit_action": {
+        "label": {
+            "text": "返回"
+        },
+        "action": {
+            "type": "run_command",
+            "command": "dialog show @s thtp:settings/chance/main"
+        }
+    }
 }
