@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "diamond_pickaxe":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "diamond_pickaxe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:type/special/crafted/diamond_pickaxe"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "iron_leggings":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "iron_leggings"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:type/special/crafted/iron_leggings"
+    }
+}

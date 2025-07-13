@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "diamond_helmet":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "diamond_helmet"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:type/special/crafted/diamond_helmet"
+    }
+}

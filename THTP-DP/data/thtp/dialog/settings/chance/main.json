@@ -18,7 +18,7 @@
         },
         "action": {
             "type": "run_command",
-            "command": "dialog show @s thtp:settings/main"
+            "command": "trigger Dialog set 1"
         }
     }
 }

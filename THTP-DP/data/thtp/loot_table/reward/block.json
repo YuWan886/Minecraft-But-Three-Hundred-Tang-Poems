@@ -5,78 +5,13 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "cobblestone",
+                    "name": "obsidian",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "oak_log",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "oak_leaves",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "dirt",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "sand",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "gravel",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
+                                "max": 12
                             }
                         }
                     ]
@@ -89,222 +24,110 @@
                             "function": "set_count",
                             "count": {
                                 "min": 1,
-                                "max": 16
+                                "max": 12
                             }
                         }
                     ]
                 },
                 {
+                    "type": "group",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "oak_log",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 16,
+                                        "max": 64
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "birch_log",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 16,
+                                        "max": 64
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "acacia_log",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 16,
+                                        "max": 64
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "cherry_log",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 16,
+                                        "max": 64
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "jungle_log",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 16,
+                                        "max": 64
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "type": "item",
-                    "name": "spruce_log",
+                    "name": "glass",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 1,
-                                "max": 16
+                                "max": 32
                             }
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "name": "birch_log",
+                    "name": "torch",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 1,
-                                "max": 16
+                                "min": 16,
+                                "max": 32
                             }
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "name": "andesite",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "diorite",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "granite",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "clay",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "redstone_ore",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "lapis_ore",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "iron_ore",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "coal_ore",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "prismarine",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "dark_prismarine",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "terracotta",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "nether_quartz_ore",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "glowstone",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "magma_block",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "diamond_ore",
+                    "name": "blast_furnace",
                     "functions": [
                         {
                             "function": "set_count",
@@ -317,7 +140,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "emerald_ore",
+                    "name": "smoker",
                     "functions": [
                         {
                             "function": "set_count",
@@ -330,7 +153,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "ancient_debris",
+                    "name": "campfire",
                     "functions": [
                         {
                             "function": "set_count",
@@ -343,7 +166,28 @@
                 },
                 {
                     "type": "item",
-                    "name": "obsidian",
+                    "name": "enchanting_table"
+                },
+                {
+                    "type": "item",
+                    "name": "bookshelf",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "anvil"
+                },
+                {
+                    "type": "item",
+                    "name": "ender_chest",
                     "functions": [
                         {
                             "function": "set_count",
@@ -356,7 +200,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "crying_obsidian",
+                    "name": "white_shulker_box",
                     "functions": [
                         {
                             "function": "set_count",
@@ -369,7 +213,40 @@
                 },
                 {
                     "type": "item",
-                    "name": "amethyst_block",
+                    "name": "dragon_head",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.04
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "dragon_egg",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "end_portal_frame",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "tnt",
                     "functions": [
                         {
                             "function": "set_count",
@@ -382,7 +259,30 @@
                 },
                 {
                     "type": "item",
-                    "name": "deepslate_diamond_ore",
+                    "name": "player_head",
+                    "functions": [
+                        {
+                            "function": "fill_player_head",
+                            "entity": "this"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "slime_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "iron_block",
                     "functions": [
                         {
                             "function": "set_count",
@@ -391,271 +291,17 @@
                                 "max": 4
                             }
                         }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "grass_block",
-                    "functions": [
+                    ],
+                    "conditions": [
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
+                            "condition": "random_chance",
+                            "chance": 0.5
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "name": "sandstone",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "acacia_log",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "dark_oak_log",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "jungle_log",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "coarse_dirt",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "podzol",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "mycelium",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "smooth_stone",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "bricks",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "nether_bricks",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "red_nether_bricks",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "end_stone",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "purpur_block",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "basalt",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "blackstone",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "polished_blackstone",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "quartz_block",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "deepslate",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "tuff",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "beacon",
+                    "name": "gold_block",
                     "functions": [
                         {
                             "function": "set_count",
@@ -664,11 +310,17 @@
                                 "max": 4
                             }
                         }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.5
+                        }
                     ]
                 },
                 {
                     "type": "item",
-                    "name": "shulker_box",
+                    "name": "diamond_block",
                     "functions": [
                         {
                             "function": "set_count",
@@ -677,759 +329,11 @@
                                 "max": 4
                             }
                         }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "sponge",
-                    "functions": [
+                    ],
+                    "conditions": [
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 4
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "sculk",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 4
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "sculk_catalyst",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 4
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "red_sand",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "red_sandstone",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "mangrove_log",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "cherry_log",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "spruce_leaves",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "birch_leaves",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "acacia_leaves",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "snow_block",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "packed_ice",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "moss_block",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "gold_ore",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "deepslate_iron_ore",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "deepslate_coal_ore",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "deepslate_redstone_ore",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "deepslate_lapis_ore",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "prismarine_bricks",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "polished_andesite",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "polished_diorite",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "polished_granite",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "calcite",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "deepslate_emerald_ore",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 4
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "deepslate_gold_ore",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 4
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "nether_gold_ore",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 4
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "gilded_blackstone",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 4
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "blue_ice",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 4
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "mossy_cobblestone",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "stone_bricks",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "mossy_stone_bricks",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "cracked_stone_bricks",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "smooth_sandstone",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "smooth_red_sandstone",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "jungle_leaves",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "dark_oak_leaves",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "mangrove_leaves",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "cherry_leaves",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "cobbled_deepslate",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "polished_deepslate",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "deepslate_bricks",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "deepslate_tiles",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "prismarine_crystals",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "netherrack",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "soul_sand",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "soul_soil",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "crimson_nylium",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "warped_nylium",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "crimson_stem",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "warped_stem",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "stripped_oak_log",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "stripped_spruce_log",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "stripped_birch_log",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "stripped_jungle_log",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "stripped_acacia_log",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "stripped_dark_oak_log",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "stripped_mangrove_log",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "stripped_cherry_log",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
+                            "condition": "random_chance",
+                            "chance": 0.1
                         }
                     ]
                 }

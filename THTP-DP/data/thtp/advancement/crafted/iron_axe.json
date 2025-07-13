@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "iron_axe":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "iron_axe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:type/special/crafted/iron_axe"
+    }
+}

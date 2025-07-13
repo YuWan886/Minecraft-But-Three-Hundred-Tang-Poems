@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "diamond_sword":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "diamond_sword"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:type/special/crafted/diamond_sword"
+    }
+}

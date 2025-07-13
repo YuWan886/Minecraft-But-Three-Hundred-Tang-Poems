@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "iron_boots":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "iron_boots"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:type/special/crafted/iron_boots"
+    }
+}

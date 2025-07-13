@@ -1,0 +1,181 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "netherite_upgrade_smithing_template",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.5
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "trident",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 20,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mace",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 20,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "bow",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 20,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying"
+                },
+                {
+                    "type": "item",
+                    "name": "end_rod",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name":{
+                                    "text": "仙女棒",
+                                    "color": "light_purple",
+                                    "italic": false
+                                },
+                                "enchantments": {
+                                    "knockback": 10
+                                },
+                                "lore": [
+                                    "",
+                                    {
+                                        "text": "在主手时：",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " 1145145 攻击伤害",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " 1.6 攻击速度",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    }
+                                ],
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "enchantment_glint_override",
+                                        "enchantments"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "experience_bottle",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 48
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "bell",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "equippable": {
+                                    "slot": "head",
+                                    "damage_on_hurt": false,
+                                    "equip_on_interact": true,
+                                    "equip_sound": "block.bell.use"
+                                
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "ender_pearl",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ] 
+                },
+                {
+                    "type": "item",
+                    "name": "ender_eye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "netherite_scrap",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.3
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

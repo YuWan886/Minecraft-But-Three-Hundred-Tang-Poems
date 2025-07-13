@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "iron_chestplate":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "iron_chestplate"
+            }
+        }
+    }
+}

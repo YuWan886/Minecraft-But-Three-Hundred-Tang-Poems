@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "iron_helmet":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "iron_helmet"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:type/special/crafted/iron_helmet"
+    }
+}

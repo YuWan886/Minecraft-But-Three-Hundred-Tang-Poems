@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "diamond_axe":{
+            "trigger": "recipe_crafted",
+            "conditions": {
+                "recipe_id": "diamond_axe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "thtp:type/special/crafted/diamond_axe"
+    }
+}

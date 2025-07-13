@@ -145,7 +145,7 @@
         },
         "action": {
             "type": "run_command",
-            "command": "dialog show @s thtp:settings/chance/main"
+            "command": "trigger Dialog set 2"
         }
     }
 }

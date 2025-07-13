@@ -46,7 +46,7 @@
             "label": {
                 "text": "玩家背包改变"
             },
-            "initial": "0.015"
+            "initial": "0.005"
         }
     ],
     "actions": [
@@ -66,7 +66,7 @@
         },
         "action": {
             "type": "run_command",
-            "command": "dialog show @s thtp:settings/chance/main"
+            "command": "trigger Dialog set 2"
         }
     }
 }
